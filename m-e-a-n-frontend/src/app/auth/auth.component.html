@@ -1,0 +1,21 @@
+<h1>Authorization Form</h1>
+
+<form (submit)="onFormSubmit($event)">
+  <input
+    class="form-control mb-3"
+    type="text"
+    name="login"
+    placeholder="Fill login"
+    [(ngModel)]="login"
+  >
+
+  <input
+    class="form-control mb-3"
+    type="password"
+    name="password"
+    placeholder="Fill password"
+    [(ngModel)]="password"
+  >
+
+  <button class="btn btn-success" type="submit">Sign Up</button>
+</form>

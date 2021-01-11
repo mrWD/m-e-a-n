@@ -1,0 +1,22 @@
+{
+  "name": "m-e-a-n",
+  "version": "1.0.0",
+  "description": "M-E-A-N stack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index"
+  },
+  "dependencies": {
+    "express": "*",
+    "mongoose": "*",
+    "bcryptjs": "*",
+    "passport": "*",
+    "passport-jwt": "*",
+    "body-parser": "*",
+    "cors": "*",
+    "jsonwebtoken": "*"
+  },
+  "author": "",
+  "license": "ISC"
+}
